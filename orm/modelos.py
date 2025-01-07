@@ -4,6 +4,7 @@
 from sqlalchemy import Column, String, Integer, DateTime, ForeignKey, Float
 # Para que calcular la hora actual
 import datetime
+
 from sqlalchemy.ext.declarative import declarative_base
 
 
