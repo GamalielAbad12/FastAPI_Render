@@ -5,6 +5,11 @@ from orm.config import BaseClass
 from sqlalchemy import Column, String, Integer, DateTime, ForeignKey, Float
 # Para que calcular la hora actual
 import datetime
+from sqlalchemy.ext.declarative import declarative_base
+
+
+
+BaseClass = declarative_base()
 
 # Por convención las clases tienen nombres en singular y comienzan con mayúsculas
 class Usuario(BaseClass):
