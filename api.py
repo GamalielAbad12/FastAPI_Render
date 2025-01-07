@@ -46,7 +46,7 @@ usuarios = [{
 def hola_mundo():
     print("invocando a ruta /")
     respuesta = {
-        "mensaje": "hola mundo!"
+        "mensaje": "Juan 3:16"
     }
 
     return respuesta
